@@ -4,7 +4,7 @@ function frequencyCounter(word) {
     if(map[word.charAt(i)])
       map[word.charAt(i)]++;
     else 
-      map[word.chatAt(i)] = 1;
+      map[word.charAt(i)] = 1;
   }
   return map;
 }
